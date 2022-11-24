@@ -204,7 +204,6 @@ nav ul li a {
         display: flex;
         align-items: center;
         flex-direction: column;
-        border: 1px solid red;
 
     }
 
@@ -218,7 +217,6 @@ nav ul li a {
         margin: auto;
         padding: 1rem;
         border-radius: 1rem;
-        border: 1px solid red;
     }
 
     .info-local {
@@ -229,15 +227,12 @@ nav ul li a {
         height: 100%;
         margin: auto;
         padding: 0;
-
-        border: 1px solid red;
     }
 
     .info-presente {
         flex-direction: column;
         margin: auto;
         padding: 0;
-        border: 1px solid red;
     }
 
     iframe {
