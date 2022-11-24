@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rosi & Alex</title>
+
+    <script>
+        function fecharWPBOX() {
+            var x = document.getElementById("box-whatsapp");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <div id="home"></div>
+    <input type="checkbox" id="menu-hamburger">
+    <label for="menu-hamburger" class="menu-hamburger">&#9776;</label>
+    <nav id="home">
+        <ul>
+            <li><a href="#info-presente">Presente</a></li>
+            <li><a href="#info-local">Detalhes do Casamento</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5551994438692&text=Estou mandando mensagem para confirmar minha presença, no dia 03/12.&utm_source=whatsapp&utm_medium=icon&utm_campaign=site"
+                    target="_blank" title="Clique para conversar pelo WhatsApp!">Confirme sua Presença!</a></li>
+        </ul>
+    </nav>
+
+    <div id="Container">
+        <img src="/Imagens/logo.svg" alt="logo">
+
+        <h1>Convidamos você para nossa Bodas de Prata</h1>
+    </div>
+
+    <div id="Container">
+
+        <div class="info-presente" id="info-presente">
+            <h1>Nosso cantinho já está pronto!
+                Mas você pode nos presentear com um Pix para nossa Lua de Mel, nossa chave Pix está ao lado.
+            </h1>
+        </div>
+
+
+        <div class="info-presente">
+            <div class="pix">
+                <a href=""><img src="/Imagens/pix.png" alt="pix" width="200px"></a>
+
+                <h2>Chave Pix 51 98993-2681</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="Container">
+        <div class="info-local" id="info-local">
+            <h2>Local</h2>
+            <p>Must Eventos</p>
+
+            <h2>Endereço</h2>
+            <p>Av. Castro Alves, 795 - Santa Catarina, Sapucaia do Sul - RS</p>
+
+            <h2>Data</h2>
+            <p>Dezembro, 03 de 2022</p>
+
+            <h2>Horário</h2>
+            <p>20:30</p>
+        </div>
+
+        <div class="info-local">
+            <h2>Como chegar?</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4489.003238762285!2d-51.1611462496933!3d-29.821137376228585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95196f4acb49e441%3A0x48a6af3fd0e41922!2sAv.%20Castro%20Alves%2C%20795%20-%20Santa%20Catarina%2C%20Sapucaia%20do%20Sul%20-%20RS%2C%2093214-060!5e0!3m2!1spt-BR!2sbr!4v1669314778355!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!-- PopUP WhatsApp -->
+    <div id="box-whatsapp">
+        <span class="close" onClick="fecharWPBOX()" title="Fechar">×</span>
+
+        <!-- Caixa de texto -->
+        <div class="box-whatsapp-message">
+
+            <p>
+                <a href="https://api.whatsapp.com/send?phone=5551994438692&text=Estou mandando mensagem para confirmar minha presença, no dia 03/12.&utm_source=whatsapp&utm_medium=icon&utm_campaign=site"
+                    target="_blank" title="Clique para conversar pelo WhatsApp!"
+                    style="text-decoration: none; color: #535661;">
+                    <strong>Confirme sua presença aqui!</strong>
+                </a>
+            </p>
+        </div>
+
+        <!-- Icone WhatsApp -->
+        <div class="box-whatsapp-icon" title="Clique para conversar pelo WhatsApp!">
+            <a href="https://api.whatsapp.com/send?phone=5519987832012&text=Quero saber mais!" target="_blank"><i
+                    class="fab fa-whatsapp wp-icon"></i></a>
+        </div>
+
+    </div>
+    <!-- FIM PopUP WhatsApp -->
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
