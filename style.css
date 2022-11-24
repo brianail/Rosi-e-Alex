@@ -160,6 +160,10 @@ nav ul li a {
 
 
 @media (max-width: 830px) {
+body{
+    font-size: small;
+}
+
     nav {
         display: none;
     }
