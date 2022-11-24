@@ -200,6 +200,7 @@ nav ul li a {
         width: 80%;
         padding: 1rem;
         height: 100%;
+        margin: auto;
         background-color: #ECE9DB;
         display: flex;
         align-items: center;
@@ -243,7 +244,7 @@ nav ul li a {
     }
 
     #box-whatsapp {
-        display: none;
+        display: block;
     }
 
     .box-whatsapp-message,
